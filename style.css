@@ -1,0 +1,196 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo {
+    float: left;
+    position: relative;
+   
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.menu-principal {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.header2 {
+    background-color:white;
+    margin: 0 auto;
+    width: 980px;
+    padding: 25px;
+}
+.menu-urls{
+    height: 80px;
+    background-color: white;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu ul li  {
+    display:inline-block;
+    color: white;
+    margin-left: 10px;
+}
+.menu ul li a {
+    color: black;
+    text-decoration:none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.menu-urls1{
+    height: 15px;
+    background-color: #2b2c2b;
+}
+.col-1001 {
+    width: 100%;
+    float: right;
+    position: relative;
+}
+.menu1 {
+    width: 70%;
+    float: right;
+}
+.menu1 ul li  {
+    display:inline-block;
+    color: grey;
+    margin-left: 10px;
+}
+.menu1 ul li a {
+    color: white;
+    text-decoration:none;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(anterior.png);
+    top: 50%;
+    left: 0%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(proximo.png);
+    top: 50%;
+    right: 0%;
+}
+.textsection4 {
+    text-align: center;
+    color: white;
+    text-decoration:none;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.secao {
+    display: flex;
+    justify-content: space-around;
+    height: 670px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+   
+}
+
+.secao2 {
+    display: flex;
+    justify-content: space-around;
+    height: 2500px;
+    width: 100%;
+    background-color: white;
+}
+.secao3 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background-color: #03c987;
+}
+.secao4 {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+}
+.secao0 {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    width: 100%;
+    background-color: #2b2c2b;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 4px solid white;
+    height: 25px;
+    width: 25px;
+    background:transparent ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 500;
+
+}
+li.slick-active button {
+ background: black;
+}
+.titulo-secao {
+    margin-top: 20%;
+    background-color: #03c987;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.texto-secao2 {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    padding: 60px 0;
+    padding-right: 40 px;
+}
